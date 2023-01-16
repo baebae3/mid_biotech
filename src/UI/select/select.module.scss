@@ -1,0 +1,23 @@
+.select_style {
+    outline: none;
+    background: #F7F5F5;
+    border: 1px solid #ECEAEA;
+    border-radius: 10px;
+    padding: 10px 35px 10px 35px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #595959;
+
+    option {
+        background: #F7F5F5;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #595959;
+    }
+}

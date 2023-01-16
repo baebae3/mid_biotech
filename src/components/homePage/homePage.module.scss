@@ -1,0 +1,140 @@
+.main {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 11px;
+}
+
+.user_panel {
+    padding: 10px 0 10px 0;
+    margin-top: 30px;
+    width: 800px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.user_panel_info {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 13px;
+    padding-right: 20px;
+}
+
+.user_panel_left {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.user_panel_info_avatar {
+    width: 36px;
+    height: 36px;
+
+    background: #B9B9B9;
+    border-radius: 50%;
+}
+
+.user_panel_info_userdata {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    p {
+        margin: 0;
+        font-family: 'Inter';
+        color: #9D9D9D;
+        font-size: 12px;
+        line-height: 15px;
+        font-weight: 500;
+    }
+
+    h3 {
+        font-size: 16px;
+        font-family: 'Inter';
+        line-height: 20px;
+        font-weight: 700;
+        margin: 0;
+    }
+}
+
+
+.order_panel {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 760px;
+
+    button {
+        align-self: center;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        padding: 11px 62px;
+        margin-top: 20px;
+    }
+}
+
+.order_panel_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h2 {
+        margin: 0;
+    }
+}
+
+
+
+.table {
+    margin-top: 10px;
+    margin-right: 0;
+    text-align: center;
+
+    .header_row {
+        background: #F7F5F5;
+        border: 1px solid #EBEBEB;
+        border-radius: 10px;
+
+        td {
+            font-family: 'Inter';
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #000000;
+        }
+    }
+
+    tr {
+        margin-top: 10px;
+        display: block;
+        background: #FFFFFF;
+        border: 1px solid #EBEBEB;
+        border-radius: 10px;
+        display: flex;
+        justify-content: start;
+
+        td {
+            width: 150px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #000000;
+        }
+    }
+}
+
+.table td {
+    padding: 10px 0 10px 10px;
+
+}
